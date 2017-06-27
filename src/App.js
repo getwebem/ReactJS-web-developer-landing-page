@@ -13,7 +13,7 @@ class App extends Component {
   constructor(props){
     super(props);
     this.state = {
-      foo: 'bar',
+
       portfolioData: {}
     }
   }
@@ -42,13 +42,13 @@ class App extends Component {
     console.log(this.state.portfolioData);
     return (
       <div className="App">
+        <Header data={this.state.portfolioData.main} />
         <About />
+        <Resume />
+        <Portfolio />
+        <Testimonials />
         <Contact />
         <Footer />
-        <Header />
-        <Portfolio />
-        <Resume />
-        <Testimonials />
       </div>
     );
   }
