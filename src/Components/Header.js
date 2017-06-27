@@ -8,6 +8,9 @@ class Header extends Component {
         var occupation = this.props.data.occupation;
         var description = this.props.data.description;
         var city = this.props.data.address.city;
+        var networks = this.props.data.social.map(function(network){
+          return <li key={network.name}><a href={network.url}><i className={network.className}></i></a></li>
+        });
     }
     return (
       <header id="home">
@@ -34,13 +37,7 @@ class Header extends Component {
             <h3>I'm a {city} based <span>{occupation} </span> {description}</h3>
             <hr />
             <ul className="social">
-               <li><a href=""><i className="fa fa-facebook"></i></a></li>
-               <li><a href=""><i className="fa fa-twitter"></i></a></li>
-               <li><a href=""><i className="fa fa-google-plus"></i></a></li>
-               <li><a href=""><i className="fa fa-linkedin"></i></a></li>
-               <li><a href=""><i className="fa fa-instagram"></i></a></li>
-               <li><a href=""><i className="fa fa-dribbble"></i></a></li>
-               <li><a href=""><i className="fa fa-skype"></i></a></li>
+          {networks}
             </ul>
          </div>
       </div>
