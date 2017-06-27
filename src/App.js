@@ -13,7 +13,6 @@ class App extends Component {
   constructor(props){
     super(props);
     this.state = {
-
       portfolioData: {}
     }
   }
@@ -43,11 +42,11 @@ class App extends Component {
     return (
       <div className="App">
         <Header data={this.state.portfolioData.main} />
-        <About />
-        <Resume />
-        <Portfolio />
-        <Testimonials />
-        <Contact />
+        <About data={this.state.portfolioData.main} />
+        <Resume data={this.state.portfolioData.resume}  />
+        <Portfolio data={this.state.portfolioData.portfolio} />
+        <Testimonials  data={this.state.portfolioData.testimonials} />
+        <Contact data={this.state.portfolioData.main} />
         <Footer />
       </div>
     );
