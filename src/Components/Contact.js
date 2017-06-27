@@ -32,22 +32,22 @@ class Contact extends Component {
          <fieldset>
 
                  <div>
-              <label for="contactName">Name <span className="required">*</span></label>
+              <label htmlFor="contactName">Name <span className="required">*</span></label>
               <input type="text" value="" size="35" id="contactName" name="contactName" />
                  </div>
 
                  <div>
-              <label for="contactEmail">Email <span className="required">*</span></label>
+              <label htmlFor="contactEmail">Email <span className="required">*</span></label>
               <input type="text" value="" size="35" id="contactEmail" name="contactEmail" />
                  </div>
 
                  <div>
-              <label for="contactSubject">Subject</label>
+              <label htmlFor="contactSubject">Subject</label>
               <input type="text" value="" size="35" id="contactSubject" name="contactSubject" />
                  </div>
 
                  <div>
-                    <label for="contactMessage">Message <span className="required">*</span></label>
+                    <label htmlFor="contactMessage">Message <span className="required">*</span></label>
                     <textarea cols="50" rows="15" id="contactMessage" name="contactMessage"></textarea>
                  </div>
 
