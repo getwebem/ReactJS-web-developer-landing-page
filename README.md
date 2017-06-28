@@ -1,6 +1,6 @@
 # Online Portfolio
 ### Technologies Used:
-#### HTML5, CSS3, React.js, Bootstrap 3.3, AJAX, JSON
+#### HTML5, CSS3, React.js, AJAX, JSON
  - $ :  `git clone https://github.com/getwebem/portfolio.git`
  - $   :  `cd portfolio`
  - $  :  `npm install`
