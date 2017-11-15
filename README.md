@@ -1,13 +1,13 @@
-# Online Portfolio
-### Technologies Used:
-#### HTML5, CSS3, React.js, AJAX, JSON, Fontawesome Icons, Flexslider, Smooth scrolling effect, Cross browser compatible, Fully Responsive
- - $ :  `git clone https://github.com/getwebem/portfolio.git`
- - $   :  `cd portfolio`
- - $  :  `npm install`
- - $  :  `npm start`
+# Web Developer Landing Page
+#### :rocket: HTML5, CSS3, React.js, AJAX, JSON, Fontawesome Icons, Flexslider, Smooth scrolling effect, Cross browser compatible, Fully Responsive
+ - $ : `git clone https://github.com/getwebem/ReactJS-web-developer-landing-page.git`
+ - $ : `cd ReactJS-web-developer-landing-page`
+ - $ : `npm install`
+ - $ : `npm start`
  - Web Browser :  `http://localhost:3000`
- <br/><br/>
- <br/><br/>
+
+ :fire: :fire: :fire: :fire: :fire: :fire: :fire: :fire:
+#### How to Use
  ![pic1](https://raw.githubusercontent.com/getwebem/portfolio/master/imgCover/Screen%20Shot%202017-06-28%20at%2008.21.51.png)
  <br/><br/>
 
